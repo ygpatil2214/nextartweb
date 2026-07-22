@@ -1,0 +1,17 @@
+# Netlify Configuration File
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # The directory that contains the deploy-ready static assets after building
+  publish = "dist"
+
+  # The command Netlify runs to build your site
+  command = "npm run build"
+
+# Single Page Application (SPA) redirect rule.
+# This ensures that if you decide to use HTML5 History pushState routes (like BrowserRouter) 
+# instead of Hash routing in the future, Netlify will serve the index.html fallback safely.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Rajdhani", sans-serif;
+  --color-brand-blue: #002E5D;
+  --color-brand-orange: #F27D26;
+  --color-brand-orange-hover: #d96a1a;
+}
+

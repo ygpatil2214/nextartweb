@@ -1,0 +1,6 @@
+{
+  "name": "Nextart Power Controller",
+  "description": "Premium industrial website for Nextart Power Controller (Nashik, Maharashtra) - leading manufacturer of Servo Voltage Stabilizers, APFC Panels, and Electrical Control Panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
